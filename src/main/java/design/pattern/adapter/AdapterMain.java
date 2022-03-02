@@ -8,6 +8,5 @@ public class AdapterMain {
     Turkey turkey = new TurkeyImple();
     Duck duck2 = new TurkeyAdapter(turkey);
     duck2.quack();
-
   }
 }
